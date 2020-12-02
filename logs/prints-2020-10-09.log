@@ -1,8 +1,0 @@
-17:00:13.301 [main] INFO  resources.Driver - driver is initialised
-21:31:11.286 [main] INFO  resources.Driver - driver is initialised
-21:31:40.465 [main] INFO  resources.Driver - driver is initialised
-21:31:43.137 [main] INFO  resources.Driver - Navigated to homepage
-21:33:28.967 [TestNG] INFO  resources.Driver - driver is initialised
-21:33:29.073 [TestNG] INFO  resources.Driver - driver is initialised
-21:33:37.966 [TestNG] INFO  resources.Driver - Navigated to homepage
-09:20:45.926 [TestNG] INFO  resources.Driver - driver is initialised
