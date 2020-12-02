@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="Selenium.E2EProject.Listeners"/>
+  </listeners>
+  <test parallel="tests" name="Validating Navigation(failed)">
+    <classes>
+      <class name="Selenium.E2EProject.ValidationPage">
+        <methods>
+          <include name="close"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- Selenium.E2EProject.ValidationPage -->
+      <class name="Selenium.E2EProject.HomePage">
+        <methods>
+          <include name="initialization"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Selenium.E2EProject.HomePage -->
+      <class name="Selenium.E2EProject.ValidateNavigationBar">
+        <methods>
+          <include name="initialization"/>
+          <include name="close"/>
+          <include name="InitializeHomepage"/>
+        </methods>
+      </class> <!-- Selenium.E2EProject.ValidateNavigationBar -->
+    </classes>
+  </test> <!-- Validating Navigation(failed) -->
+  <test parallel="tests" name="Validating Titlepage(failed)">
+    <classes>
+      <class name="Selenium.E2EProject.ValidationPage">
+        <methods>
+          <include name="close"/>
+          <include name="initialization"/>
+          <include name="InitializeHomepage"/>
+        </methods>
+      </class> <!-- Selenium.E2EProject.ValidationPage -->
+      <class name="Selenium.E2EProject.HomePage">
+        <methods>
+          <include name="initialization"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Selenium.E2EProject.HomePage -->
+      <class name="Selenium.E2EProject.ValidateNavigationBar">
+        <methods>
+          <include name="initialization"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Selenium.E2EProject.ValidateNavigationBar -->
+    </classes>
+  </test> <!-- Validating Titlepage(failed) -->
+</suite> <!-- Failed suite [Suite] -->

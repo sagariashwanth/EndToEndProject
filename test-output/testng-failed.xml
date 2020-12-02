@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="Selenium.E2EProject.Listeners"/>
+  </listeners>
+  <test name="Validating Navigation(failed)" parallel="tests">
+    <classes>
+      <class name="Selenium.E2EProject.HomePage">
+        <methods>
+          <include name="initialization"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Selenium.E2EProject.HomePage -->
+      <class name="Selenium.E2EProject.ValidateNavigationBar">
+        <methods>
+          <include name="initialization"/>
+          <include name="close"/>
+          <include name="InitializeHomepage"/>
+        </methods>
+      </class> <!-- Selenium.E2EProject.ValidateNavigationBar -->
+      <class name="Selenium.E2EProject.ValidationPage">
+        <methods>
+          <include name="close"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- Selenium.E2EProject.ValidationPage -->
+    </classes>
+  </test> <!-- Validating Navigation(failed) -->
+  <test name="Validating Titlepage(failed)" parallel="tests">
+    <classes>
+      <class name="Selenium.E2EProject.HomePage">
+        <methods>
+          <include name="initialization"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Selenium.E2EProject.HomePage -->
+      <class name="Selenium.E2EProject.ValidateNavigationBar">
+        <methods>
+          <include name="initialization"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Selenium.E2EProject.ValidateNavigationBar -->
+      <class name="Selenium.E2EProject.ValidationPage">
+        <methods>
+          <include name="close"/>
+          <include name="initialization"/>
+          <include name="InitializeHomepage"/>
+        </methods>
+      </class> <!-- Selenium.E2EProject.ValidationPage -->
+    </classes>
+  </test> <!-- Validating Titlepage(failed) -->
+</suite> <!-- Failed suite [Suite] -->

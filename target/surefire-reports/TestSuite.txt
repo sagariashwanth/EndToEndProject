@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 126.13 s <<< FAILURE! - in TestSuite
+InitializeHomepage(Selenium.E2EProject.ValidateNavigationBar)  Time elapsed: 3.248 s  <<< FAILURE!
+java.lang.ClassCastException: class PageObjects.LoginPage cannot be cast to class org.openqa.selenium.WebElement (PageObjects.LoginPage and org.openqa.selenium.WebElement are in unnamed module of loader 'app')
+	at Selenium.E2EProject.ValidateNavigationBar.InitializeHomepage(ValidateNavigationBar.java:33)
+
+InitializeHomepage(Selenium.E2EProject.ValidationPage)  Time elapsed: 27.988 s  <<< FAILURE!
+java.lang.ClassCastException: class PageObjects.LoginPage cannot be cast to class org.openqa.selenium.WebElement (PageObjects.LoginPage and org.openqa.selenium.WebElement are in unnamed module of loader 'app')
+	at Selenium.E2EProject.ValidationPage.InitializeHomepage(ValidationPage.java:40)
+
